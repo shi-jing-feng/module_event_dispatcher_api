@@ -1,0 +1,3 @@
+rootProject.name = "module_event_dispatcher_api"
+include ':app'
+include ':api'
