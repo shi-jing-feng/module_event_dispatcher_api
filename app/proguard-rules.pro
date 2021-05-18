@@ -19,3 +19,13 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#############################################start
+#
+# 模块事件分发器
+#
+#############################################
+
+# 模块事件分发器 生成的类文件 反混淆
+-keep class com.shijingfeng.module_event_dispatcher.auto_generate.**{*;}
+# 模块事件分发器 实现 ModuleEventListener 的类反混淆
+-keep class * implements com.shijingfeng.module_event_dispatcher.data.interfaces.ModuleEventListener
